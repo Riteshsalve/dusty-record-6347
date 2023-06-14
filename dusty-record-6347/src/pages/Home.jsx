@@ -1,6 +1,7 @@
 function Home(){
     return<>
-    <p>Home</p>
+    <p>Home Town</p>
+    
     </>
 }
 export default Home

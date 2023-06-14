@@ -1,10 +1,10 @@
-import { ColorModeScript } from '@chakra-ui/react';
+// import { ColorModeScript } from '@chakra-ui/react';
 
 import * as ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import * as serviceWorker from './serviceWorker';
-import { ChakraProvider ,theme } from '@chakra-ui/react';
+import { ChakraProvider  } from '@chakra-ui/react';
 import { BrowserRouter } from 'react-router-dom';
 // import SearchContextProvider from './Contexts/SearchContextProvider';
 // import AuthContextProvider from './Contexts/AuthContextProvider';
@@ -15,12 +15,12 @@ const root = ReactDOM.createRoot(container);
 
 root.render(
 
-  <ChakraProvider theme={theme}>
+  <ChakraProvider >
     <AuthContextProvider>
 
     {/* <SearchContextProvider> */}
 
-    <ColorModeScript />
+    {/* <ColorModeScript /> */}
     <BrowserRouter>
     <App />
     </BrowserRouter>

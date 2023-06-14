@@ -31,31 +31,28 @@ import Login from '../pages/Login'
 import Signup from '../pages/Signup'
 
 const AllRoutes = () => {
-
-  
   return (
     <div>
-//       <Routes>
-//         {/* <Route path='/admin' element={<Admin/>} /> */}
-//         <Route path='/' element={<Home/>} />
-//         <Route path='/contact' element={<Contact/>} />
-//         <Route path='/about' element={<About/>} />
-//         <Route path='/signup' element={<Signup/>} />
-//         <Route path='/login' element={<Login/>} />
-//         {/* <Route path='*' element={<PageNotFound/>} /> */}
-//         {/* <Route path='/doctors' element={
+      <Routes>
+        {/* <Route path='/admin' element={<Admin/>} /> */}
+        <Route path='/' element={<Home/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/about' element={<About/>} />
+       <Route path='/signup' element={<Signup/>} />
+       <Route path='/login' element={<Login/>} />        {/* <Route path='*' element={<PageNotFound/>} /> */}
+        {/* <Route path='/doctors' element={
 //           <PrivateRoutes>
 //             <Doctors/>
 //           </PrivateRoutes>
 //         } /> */}
-//         {/* <Route path='/doctors/:doctor_id' element={
+       {/* <Route path='/doctors/:doctor_id' element={
 //           <PrivateRoutes>
 //             <SingleDoctorPage/>
 //           </PrivateRoutes>
 //         } /> */}
-//        
-//       </Routes>
-//     </div>
+       
+       </Routes>
+    </div>
   )
 }
 
