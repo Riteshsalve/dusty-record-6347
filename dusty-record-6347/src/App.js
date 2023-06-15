@@ -9,7 +9,7 @@ function App() {
     <>
     <Box className="App">
    <Navbar/>
-   <AllRoutes/>
+   {/* <AllRoutes/> */}
     </Box>
   
   
