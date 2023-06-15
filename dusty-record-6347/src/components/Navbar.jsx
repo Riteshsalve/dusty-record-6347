@@ -8,6 +8,7 @@ import {
     Stack,
     Collapse,
     Icon,
+    Image,
     Link,
     Popover,
     PopoverTrigger,
@@ -23,6 +24,7 @@ import {
     ChevronRightIcon,
   } from '@chakra-ui/icons';
   
+  import img2 from "../Images/logo.png"
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
   
@@ -57,6 +59,7 @@ import {
               color={useColorModeValue('gray.800', 'white')}>
               Logo
             </Text>
+            {/* <Image  src={img2}/> */}
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'end' }}>
           
   
@@ -85,7 +88,7 @@ import {
               fontWeight={600}
               color={'white'}
               bg={'pink.400'}
-              href={'#'}
+              href={'/signup'}
               _hover={{
                 bg: 'pink.300',
               }}>
