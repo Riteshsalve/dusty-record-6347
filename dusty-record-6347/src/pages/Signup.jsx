@@ -7,6 +7,25 @@ const Signup = () => {
   const [password,setPassword] = useState('')
   const [firstName,setFirstName] = useState('')
   const [lastName,setLastName] = useState('')
+  
+  //  const userdetail = {
+  //   email : email,
+  //   password : password,
+  //   firstName : firstName,
+  //   lastName : lastName
+  //  } 
+
+  //  const fetchdata = async() => {
+  //   //  axios.post(`http://localhost:3000/signup`,userdetail).then((res)=>console.log(res)).catch((err)=>console.log(err))
+  //   // let res = await fetch(`http://localhost:3000/signup`,{
+    //    method  : "POST",
+    //    headers : {
+    //     "Content-type" : "application/json"
+    //    },
+    //    body : JSON.stringify(userdetail)
+    // })
+    //  console.log(res)
+  //  }
 
    const handleSubmit = (e) => {
     e.preventDefault()
