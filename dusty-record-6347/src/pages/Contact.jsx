@@ -1,10 +1,12 @@
 import React from 'react'
-import {Box,Heading} from '@chakra-ui/react'
+import {Box,Heading,Tag} from '@chakra-ui/react'
 
 const Contact = () => {
   return (
-   <Box mt="125px" >
-    <Heading  textAlign={"center"} color={"#5A79F5"}>Contact US</Heading>
+   <Box mt="125px" textAlign={'center'} >
+    <Tag  variant="outline"  color={'#5A79F5'} p="10px" size={'lg'} >
+            <Heading >Contact Us!</Heading>
+          </Tag>
    </Box>
   )
 }

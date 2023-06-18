@@ -1,3 +1,5 @@
+
+import {useNavigate} from "react-router-dom"
 import {
     Box,
     Flex,
@@ -17,7 +19,9 @@ import {
     Center,
     Image,
     Heading
+    
   } from '@chakra-ui/react';
+  
   import img1 from "../Images/heart.jpg"
   import bigheart from "../Images/heart1.png"
   import About from "../Images/about.png"
@@ -25,6 +29,7 @@ import {
   import realheart from "../Images/RealHeart.png"
   
   function Home(){
+    const navigate = useNavigate()
   return <>
   <Box className='first_class'  width="92%" height={500} alignItems="center" margin="auto" bg={useColorModeValue(' #EDEAED', 'gray.800') } borderRadius={10} marginTop={125} >
   <Box  display={"flex"}  margin={'auto'}  width="100%" height="50%"
@@ -39,7 +44,9 @@ import {
   }>•</span>
   </Heading>
   </Box>
-  <Button bg={'#5A79F5'} width={200} margin={'auto'}  marginRight={45} >Start Program</Button>
+  
+  <Button bg={'#5A79F5'} width={200} margin={'auto'}  marginRight={45}   >
+  <Link href= '/doctors' > Start Program</Link> </Button>
   </Box>
   <Box   display={"flex"}  justifyContent={'space-around'}  marginLeft={10} marginTop={-10} height="50%" >
   {/* <Flex > */}
@@ -49,10 +56,10 @@ import {
   </Box>
   
   <Box margin={'auto'} width="92%" height={16} marginTop={4} borderRadius={10} bgColor={'#5A79F5'} display={'flex'} justifyContent={'space-around'}>
-  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} >Our Technology ➕</Button>
-  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3}>Our Technology ➕</Button>
-  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3}>Our Technology ➕</Button>
-  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3}>Our Technology ➕</Button>
+  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} ><Link href= '/doctors' >Our Technology ➕</Link> </Button>
+  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} ><Link href= '/doctors' >Our Technology ➕</Link> </Button>
+  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} ><Link href= '/doctors' >Our Technology ➕</Link> </Button>
+  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} ><Link href= '/doctors' >Our Technology ➕</Link> </Button>
   </Box>
   
   {/* <Box>
@@ -160,9 +167,9 @@ import {
   {/* +++++++++START Program Now+++++++ */}
   
   <Box margin={'auto'} width="92%" height={16} marginTop={4} borderRadius={10} bgColor={'#5A79F5'} display={'flex'} justifyContent={'space-around'} >
-  <Button bgColor={'#5A79F5'}  color={"white"} fontSize={18} marginTop={3}>Start Program Now ➕</Button>
-  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3}>Start Program Now ➕</Button>
-  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3}>Start Program Now ➕</Button>
+  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} ><Link href= '/doctors' >Start Program Now ➕</Link> </Button>
+  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} ><Link href= '/doctors' >Start Program Now ➕</Link> </Button>
+  <Button bgColor={'#5A79F5'} color={"white"} fontSize={18} marginTop={3} ><Link href= '/doctors' >Start Program Now ➕</Link> </Button>
   {/* <Button bgColor={'blue'}>Our Technology +</Button> */}
   </Box>
   <Box width="92%" margin={'auto'}  marginTop={7}  borderRadius={10}>

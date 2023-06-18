@@ -38,7 +38,7 @@ const About = () => {
         {/* </Box> */}
         <Box p="20px" textAlign={'center'}>
           <Tag  variant="outline" color={'#5A79F5'} p="10px" size={'lg'}>
-            <Heading >About US!</Heading>
+            <Heading >About Us!</Heading>
           </Tag>
           <Image src={img1} />
           <Text mt="10px" lineHeight={'30px'}>

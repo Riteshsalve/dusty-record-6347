@@ -26,14 +26,14 @@ import {
   AlertTitle,
   AlertDescription,
 } from '@chakra-ui/react';
-// import validator from 'validator';
+import validator from 'validator';
 import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
 import { SearchContext } from '../Context/SearchContextProvider';
 import CardsDoc from '../components/CardsDoc';
 import Loader from '../components/Loader';
 import Error from '../components/Errormsg';
-// import { Rating } from 'react-simple-star-rating';
+import { Rating } from 'react-simple-star-rating';
 import { useNavigate, useParams } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';
 // import 'animate.css';
@@ -52,8 +52,12 @@ const initState = {
   state: ''
 };
 
-const SingleLabPage = () => {
-  const { doctor_id } = useParams();
+const SingleDoctorPage = () => {
+  const mainData = useParams();
+  let mainId=mainData.lab_id
+  console.log(mainId)
+  // const doctor_id=1
+  // console.log(doctor_id)
   // console.log(doctor_id);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -72,10 +76,10 @@ const SingleLabPage = () => {
   const isError = bookingform === '';
 
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const fetchDoctorData = (doctor_id) => {
+  const fetchDoctorData = (mainId) => {
     setLoading(true);
     axios
-      .get(`https://elated-gold-bandicoot.cyclic.app/laboratory//${doctor_id}`)
+      .get(`https://elated-gold-bandicoot.cyclic.app/laboratory/${mainId}`)
       .then(res => {
         console.log(res.data);
         setData(res.data);
@@ -92,9 +96,9 @@ const SingleLabPage = () => {
   };
 
   useEffect(() => {
-    fetchDoctorData(doctor_id);
-    fetchPrice(doctor_id)
-  }, [doctor_id]);
+    fetchDoctorData(mainId);
+    // fetchPrice(mainId)
+  }, [mainId]);
   // console.log(doctorname)
 
   
@@ -195,12 +199,12 @@ const SingleLabPage = () => {
     
   };
 
-  // if(status){
-  //   setTimeout(()=>{
-  //     navigate('/payment')
-  //   },3000)
+  if(status){
+    setTimeout(()=>{
+      navigate('/payment')
+    },3000)
    
-  // }
+  }
 
   // if(status){
   //   return   <Alert
@@ -228,7 +232,7 @@ const SingleLabPage = () => {
 
   return (
     <>
-      <Flex justifyContent={'center'} w={{base:"90%", sm : "90%" , md:"80%" , lg:"70%" , xl : "60%" , "2xl" : "60%"}}  m="auto"  >
+      <Flex justifyContent={'center'} w={{base:"90%", sm : "90%" , md:"80%" , lg:"70%" , xl : "60%" , "2xl" : "60%" ,}}  m="auto"  marginTop={"90px"} >
         <Box
           textAlign={'center'}
           w="100%"
@@ -423,4 +427,4 @@ const SingleLabPage = () => {
   );
 };
 
-export default SingleLabPage;
+export default SingleDoctorPage;

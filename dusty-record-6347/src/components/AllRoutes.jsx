@@ -11,11 +11,11 @@ import Bionics from '../pages/Bionics'
 import PageNotFound from '../pages/PageNotFound'
 import Genetics from '../pages/Genetics'
 import Chemistry from '../pages/Chemistry'
-import SingleLabPage from '../pages/SingleLabPage'
-import PrivateRoutes from './PrivateRoutes,jsx'
+import SingleDoctorPage from '../pages/SingleLabPage'
+import PrivateRoutes from './PrivateRoutes'
 import BookTest from '../pages/BookTest'
 // import LOGIN from '../Pages/Login'
-import Laboratory from '../pages/Laboratory'
+import Doctors from '../pages/Laboratory'
 import Signin from './Signin'
 
 
@@ -31,14 +31,14 @@ const AllRoutes = () => {
         <Route path='/signup' element={<SignupsForms/>} />
         <Route path='/login' element={<Signin/>} />
         <Route path='*' element={<PageNotFound/>} />
-        <Route path='/laboratory' element={
+        <Route path='/doctors' element={
           <PrivateRoutes>
-            <Laboratory/>
+            <Doctors/>
           </PrivateRoutes>
         } />
-        <Route path='/laboratory/:laboratory_id' element={
+        <Route path='/doctors/:lab_id' element={
           <PrivateRoutes>
-            <SingleLabPage/>
+            <SingleDoctorPage/>
           </PrivateRoutes>
         } />
         <Route path='/Genomics' element={<Genomics/>} />

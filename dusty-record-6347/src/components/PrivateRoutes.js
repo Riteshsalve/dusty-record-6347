@@ -1,6 +1,6 @@
 
 import React, { useContext } from 'react'
-import { AuthContext } from '../Contexts/AuthContextProvider'
+import { AuthContext } from '../Context/AuthContextProvider'
 // import Login from '../Pages/Login'
 import { Navigate } from 'react-router-dom'
 import Signin from './Signin'
@@ -8,7 +8,7 @@ import Signin from './Signin'
 const PrivateRoutes = ({children}) => {
 
   // const {isAuth} = useContext(AuthContext)
-  let authval = json.parse(localStorage.getItem('auth')) || false
+  let authval = JSON.parse(localStorage.getItem('auth')) || false
 
   if(!authval){
     return <Signin/>

@@ -34,7 +34,7 @@ const getcurrentPage = pageNumber => {
   return pageNumber;
 };
 
-const Laboratory = () => {
+const Doctors = () => {
   const [loading, setLoading] = useState(false);
   // const [data, setData] = useState([]);
   const [error, setError] = useState(false);
@@ -75,12 +75,10 @@ const Laboratory = () => {
         let pages = res.headers['x-total-count'];
         setTotalPages(Math.ceil(pages / 12));
         setLoading(false);
-        console.log(res.data)
       })
-      .catch((err) => {
+      .catch(() => {
         setError(true);
         setLoading(false);
-        console.log(err+"hjae")
       });
   };
 
@@ -89,7 +87,7 @@ const Laboratory = () => {
   }
 
 
-  const handleClick = id => {
+  const handleClick = (id) => {
     navigate(`/doctors/${id}`);
   };
 
@@ -113,7 +111,7 @@ const Laboratory = () => {
     const updatePage = page + val;
     setPage(updatePage);
   };
-
+console.log(data)
   return (
     <>
       {/* <Flex justifyContent={"space-between"}> */}
@@ -122,7 +120,7 @@ const Laboratory = () => {
         w="70%"
         m="auto"
         gap="40px"
-        mt="90px"
+        mt="125px"
         templateColumns={{
           base: 'repeat(1,1fr)',
           sm: 'repeat(1,1fr)',
@@ -166,7 +164,7 @@ const Laboratory = () => {
             onChange={(e)=>getDoctorValue(e.target.value)}
           >
             <option value="">Select Category</option>
-            <option value="laboratory">All Categories</option>
+            <option value="doctors">All Categories</option>
             <option value="Genomics">Genomics</option>
             <option value="chemistry">Chemistry</option>
             <option value="Genetics">Genetics</option>
@@ -207,7 +205,7 @@ const Laboratory = () => {
             </Box>
           ) : (
             data.map((lab, ind) => {
-              console.log(lab);
+              console.log(lab.id);
               return (
                 <Box
                   boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
@@ -298,4 +296,4 @@ const Laboratory = () => {
   );
 };
 
-export default Laboratory;
+export default Doctors;

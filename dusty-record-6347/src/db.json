@@ -1,0 +1,825 @@
+{
+    "admin": [
+      {
+        "id": 1,
+        "email": "riteshsalve07@gmail.com",
+        "password": "admin@123"
+      }
+    ],
+    "signup": [
+      {
+        "email": "riteshsalve07@gmail.com",
+        "password": "12345",
+        "firstName": "ritesh",
+        "lastName": "salve",
+        "id": 1
+      }
+     
+    ],
+    "login": [
+      {
+        "id": 1,
+        "email": "",
+        "password": ""
+      }
+    ],
+    "username": [
+      {
+        "email": "riteshsalve07@gmail.com",
+        "password": "1233423",
+        "firstName": "ritesh",
+        "lastName": "salve",
+        "id": 1
+      }
+    ],
+    "laboratory": [
+      {
+        "id": 1,
+        "name": "CarePoint Diagnostic Centre ",
+        "image": "https://images.unsplash.com/photo-1579165466991-467135ad3110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "specialist": "chemistry",
+        "experience": "6yrs",
+        "price": 4000,
+        "totaltest": 500,
+        "rating": 3.9
+      },
+      {
+        "name": "Sanjivani Diagnostic Centre",
+        "image": "https://images.unsplash.com/photo-1579165466991-467135ad3110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60",
+        "specialist": "Genetics",
+        "experience": "7yrs",
+        "price": 2000,
+        "totaltest": 800,
+        "rating": 4.2,
+        "id": 2
+      },
+      {
+        "name": "Accurate Diagnostic Centre",
+        "image": "https://images.unsplash.com/photo-1583607264434-2d8e199b3a17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60",
+        "specialist": "chemistry",
+        "experience": "14yrs",
+        "price": 5000,
+        "totaltest": 3000,
+        "rating": 5,
+        "id": 3
+      },
+      {
+        "name": "Navjivan Diagnostic Centre",
+        "image": "https://images.unsplash.com/photo-1572884267966-02340ebc90ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFib3JhdG9yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=900&q=60",
+        "specialist": "chemistry",
+        "experience": "4",
+        "price": 1500,
+        "totaltest": 500,
+        "rating": 4,
+        "id": 4
+      },
+      {
+        "name": "HP Diagnostic Centre",
+        "image": "https://images.unsplash.com/photo-1602052577122-f73b9710adba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhYm9yYXRvcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60",
+        "specialist": "Genomics",
+        "experience": "10yrs",
+        "price": 5000,
+        "totaltest": 1000,
+        "rating": 3.5,
+        "id": 5
+      },
+      {
+        "name": "Global Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/855239924/photo/women-in-stem.jpg?s=612x612&w=0&k=20&c=PuHdGBSOb0EL24__zGlffKfA3ueiw3q2stRsg-wQZxQ=",
+        "specialist": "Bionics",
+        "experience": "6yrs",
+        "price": 3000,
+        "totaltest": 900,
+        "rating": 3.9,
+        "id": 6
+      },
+      {
+        "name": "Anjana Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1012405368/photo/scientists-in-laboratory-working-on-research.jpg?s=612x612&w=0&k=20&c=qGuh-kPQ2EBLU1dHZ2aMv5CDAt4pv6uTr-oRdOZO2Ck=",
+        "specialist": "Genomics",
+        "experience": "12yrs",
+        "price": 5000,
+        "totaltest": 2000,
+        "rating": 4.6,
+        "id": 7
+      },
+      {
+        "name": "SRL Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1191463139/photo/changing-the-future-one-experiment-at-a-time.jpg?s=612x612&w=0&k=20&c=eL-9IE0E1JPGxoCxjxYpVoemDRkJueHac5TBoxu_TUg=",
+        "specialist": "chemistry",
+        "experience": "25yrs",
+        "price": 8000,
+        "totaltest": 6000,
+        "rating": 5,
+        "id": 8
+      },
+      {
+        "name": "HealthCare Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1183908006/photo/close-up-of-lab-assistant-in-uniform-with-mask-and-rubber-gloves-holding-test-tube-with-blood.jpg?s=612x612&w=0&k=20&c=D-hfiHHGShzDl_-aWMS26Ab7zo17GlMcbKDxqkOr7vk=",
+        "specialist": "Genomics",
+        "experience": "15yrs",
+        "price": 6000,
+        "totaltest": 3400,
+        "rating": 4.9,
+        "id": 9
+      },
+      {
+        "name": "RS Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/487041749/photo/scientist-looking-through-microscope.jpg?s=612x612&w=0&k=20&c=gZXx1NgxTGo7rqu5OkNhbxyUmlHgHpJ3q2zdmcdslis=",
+        "specialist": "Genetics",
+        "experience": "19yrs",
+        "price": 6500,
+        "totaltest": 3600,
+        "rating": 5,
+        "id": 10
+      },
+      {
+        "name": "PC Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/946509292/photo/chemistry-laboratory-woman-with-pipettes-and-test-tubes.jpg?s=612x612&w=0&k=20&c=OVObHwqzPseqwFUK_1VzD50SdcADrimcconIkg78E7s=",
+        "specialist": "Bionics",
+        "experience": "10yrs",
+        "price": 4000,
+        "totaltest": 1200,
+        "rating": 4,
+        "id": 11
+      },
+      {
+        "name": "WellCare Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/842452752/photo/science-laboratory-research-and-development-concept-microscope-with-test-tubes.jpg?s=612x612&w=0&k=20&c=0EblrK4k06_uXYcL_y_ozzKPUqD0jwvXK2QUikO0Ut0=",
+        "specialist": "Genomics",
+        "experience": "4yrs",
+        "price": 3000,
+        "totaltest": 600,
+        "rating": 3.4,
+        "id": 12
+      },
+      {
+        "name": "MediCure Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1326625612/photo/caucasian-scientists-use-microscopes-to-research-the-covid-19-virus-vaccine-in-a-medical.jpg?s=612x612&w=0&k=20&c=X4bccW_JUOfTw0QsljBk1smuQFFSZPt20C7AgUkHFCM=",
+        "specialist": "Genetics",
+        "experience": "9yrs",
+        "price": 3000,
+        "totaltest": 900,
+        "rating": 4.2,
+        "id": 13
+      },
+      {
+        "name": "Utkarsh Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/823447656/photo/in-a-modern-laboratory-scientist-conducts-experiments-by-synthesising-compounds-with-use-of.jpg?s=612x612&w=0&k=20&c=c1CXn1zDzijv1YqPP4zAhDhec4Gaypp-nHNjT6nzlPo=",
+        "specialist": "chemistry",
+        "experience": "7yrs",
+        "price": 3000,
+        "totaltest": 600,
+        "rating": 3.9,
+        "id": 14
+      },
+      {
+        "name": "Nova Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/499085898/photo/scientist-in-laboratory.jpg?s=612x612&w=0&k=20&c=4gQ9xXPzH0GetW27GTkcRGmSbYnM5HzUciYxoCHmfUw=",
+        "specialist": "Genomics",
+        "experience": "6yrs",
+        "price": 1500,
+        "totaltest": 500,
+        "rating": 4.1,
+        "id": 15
+      },
+      {
+        "name": "Victus Diagnostic Centre",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnXnvNwLtoaGVhn3TiDycUiYyij4MfyAB14A&usqp=CAU",
+        "specialist": "Genetics",
+        "experience": "20yrs",
+        "price": 5000,
+        "totaltest": 2000,
+        "rating": 5,
+        "id": 16
+      },
+      {
+        "name": "Ganesh Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/499085898/photo/scientist-in-laboratory.jpg?s=612x612&w=0&k=20&c=4gQ9xXPzH0GetW27GTkcRGmSbYnM5HzUciYxoCHmfUw=",
+        "specialist": "Genetics",
+        "experience": "15yrs",
+        "price": 7000,
+        "totaltest": 2000,
+        "rating": 5,
+        "id": 17
+      },
+      {
+        "name": "ShreeSai Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1346711310/photo/portrait-of-smiling-female-doctor-wearing-uniform-standing.jpg?b=1&s=170667a&w=0&k=20&c=MP4Uz3zLO_2i8WGmcYaQgz8mOh2IrRjf5byFhqKRroY=",
+        "specialist": "Bionics",
+        "experience": "6yrs",
+        "price": 1600,
+        "totaltest": 700,
+        "rating": 4.2,
+        "id": 18
+      },
+      {
+        "name": "AllIsWell Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1141353607/photo/researcher-inspecting-meat-sample-in-laboratory.jpg?s=612x612&w=0&k=20&c=uo2j6Ejg3aJ2Md0uxLn6hoxnXOjXc44W7LCaVUUH37I=",
+        "specialist": "chemistry",
+        "experience": "7yrs",
+        "price": 3000,
+        "totaltest": 1000,
+        "rating": 4.5,
+        "id": 19
+      },
+      {
+        "name": "Pathy Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/499085898/photo/scientist-in-laboratory.jpg?s=612x612&w=0&k=20&c=4gQ9xXPzH0GetW27GTkcRGmSbYnM5HzUciYxoCHmfUw=",
+        "specialist": "Bionics",
+        "experience": "5yrs",
+        "price": 1000,
+        "totaltest": 500,
+        "rating": 4.2,
+        "id": 20
+      },
+      {
+        "name": "Sono & Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/499085898/photo/scientist-in-laboratory.jpg?s=612x612&w=0&k=20&c=4gQ9xXPzH0GetW27GTkcRGmSbYnM5HzUciYxoCHmfUw=",
+        "specialist": "Genetics",
+        "experience": "5yrs",
+        "price": 1000,
+        "totaltest": 300,
+        "rating": 4,
+        "id": 21
+      },
+      {
+        "name": "LifCare Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1189304032/photo/doctor-holding-digital-tablet-at-meeting-room.jpg?s=612x612&w=0&k=20&c=RtQn8w_vhzGYbflSa1B5ea9Ji70O8wHpSgGBSh0anUg=",
+        "specialist": "Genetics",
+        "experience": "8yrs",
+        "price": 2000,
+        "totaltest": 600,
+        "rating": 4.3,
+        "id": 22
+      },
+      {
+        "name": "Vinayak Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1367507209/photo/portrait-of-indian-female-doctor-stock-photo.jpg?s=612x612&w=0&k=20&c=mI-MPGA_bHBLK9D77v8shYOZdI7Pqnlh2_xJE00tUHM=",
+        "specialist": "Genomics",
+        "experience": "4yrs",
+        "price": 1000,
+        "totaltest": 200,
+        "rating": 3.8,
+        "id": 23
+      },
+      {
+        "name": "Metro Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1293927732/photo/confident-female-doctor.jpg?s=612x612&w=0&k=20&c=de18bkRv9kncTFc2nji_6goXd2Z4lUAvp0fuRqYlxnk=",
+        "specialist": "Genomics",
+        "experience": "15yrs",
+        "price": 4000,
+        "totaltest": 3000,
+        "rating": 4.8,
+        "id": 24
+      },
+      {
+        "name": "Aplle Diagnostic Centre",
+        "image": "https://img.freepik.com/free-photo/microbiologist-doctor-taking-blood-sample-tube-from-rack-with-machines-analysis-lab-background_482257-527.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=sph",
+        "specialist": "Genomics",
+        "experience": "28yrs",
+        "price": 5000,
+        "totaltest": 6000,
+        "rating": 5,
+        "id": 25
+      },
+      {
+        "name": "Asha Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1356785682/photo/successful-female-doctor-isolated-on-grey-background.jpg?b=1&s=170667a&w=0&k=20&c=S5RuwSQXe0Qi6p27rjpH8pHBffPjGyyGEE2L0KiIknE=",
+        "specialist": "Genetics",
+        "experience": "12yrs",
+        "price": 4000,
+        "totaltest": 3000,
+        "rating": 4.2,
+        "id": 26
+      },
+      {
+        "name": "Vital Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1161336374/photo/portrait-of-confident-young-medical-doctor-on-blue-background.jpg?s=612x612&w=0&k=20&c=zaa4MFrk76JzFKvn5AcYpsD8S0ePYYX_5wtuugCD3ig=",
+        "specialist": "Genomics",
+        "experience": "6yrs",
+        "price": 3000,
+        "totaltest": 500,
+        "rating": 4,
+        "id": 27
+      },
+      {
+        "name": "Swastik Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/506867910/photo/modern-clean-research-laboratory.jpg?s=612x612&w=0&k=20&c=wUm7CtrEpEI8-_BmMcu4XdWbjFReaMSTmfqSIDet3zQ=",
+        "specialist": "Genetics",
+        "experience": "20yrs",
+        "price": 5000,
+        "totaltest": 7000,
+        "rating": 5,
+        "id": 28
+      },
+      {
+        "name": "Sugandhi Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1302270618/photo/medical-workers-doing-analysis-in-laboratory-during-corona-virus-outbreak-science-and.jpg?s=612x612&w=0&k=20&c=FROiFns7S6A1lbiZ5HbqtzRsG8tSf9bc5cpGWfxCAQk=",
+        "specialist": "Genetics",
+        "experience": "15yrs",
+        "price": 5000,
+        "totaltest": 4000,
+        "rating": 5,
+        "id": 29
+      },
+      {
+        "name": "Exella Diagnostic Centre ",
+        "image": "https://media.istockphoto.com/id/506867910/photo/modern-clean-research-laboratory.jpg?s=612x612&w=0&k=20&c=wUm7CtrEpEI8-_BmMcu4XdWbjFReaMSTmfqSIDet3zQ=",
+        "specialist": "Genomics",
+        "experience": "8yrs",
+        "price": 4000,
+        "totaltest": 2000,
+        "rating": 4.3,
+        "id": 30
+      }
+      
+    ],
+    "Genomics": [
+      {
+        "id": 1,
+        "name": "Exella Diagnostic Centre ",
+        "image": "https://media.istockphoto.com/id/506867910/photo/modern-clean-research-laboratory.jpg?s=612x612&w=0&k=20&c=wUm7CtrEpEI8-_BmMcu4XdWbjFReaMSTmfqSIDet3zQ=",
+        "specialist": "Genomics",
+        "experience": "6yrs",
+        "price": 4000,
+        "totaltest": 500,
+        "rating": 3.9
+      },
+      {
+        "name": "Vital Diagnostic Centre ",
+        "image": "https://img.freepik.com/free-photo/dna-representation-collage_23-2150239193.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=sph",
+        "specialist": "Genomics",
+        "experience": "7yrs",
+        "price": 2000,
+        "totaltest": 800,
+        "rating": 4.2,
+        "id": 2
+      },
+      {
+        "name": "Aplle Diagnostic Centre ",
+        "image": "https://img.freepik.com/free-photo/dna-representation-collage_23-2150239223.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=sph",
+        "specialist": "Genomics",
+        "experience": "14yrs",
+        "price": 5000,
+        "totaltest": 3000,
+        "rating": 5,
+        "id": 3
+      },
+      {
+        "name": "Vital Diagnostic Centre ",
+        "image": "https://img.freepik.com/free-photo/scientific-microscope-laboratory-desk-with-researching-instruments_482257-13971.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=sph",
+        "specialist": "Genomics",
+        "experience": "4",
+        "price": 1500,
+        "totaltest": 500,
+        "rating": 4,
+        "id": 4
+      },
+      {
+        "name": "Exella Diagnostic Centre ",
+        "image": "https://media.istockphoto.com/id/506867910/photo/modern-clean-research-laboratory.jpg?s=612x612&w=0&k=20&c=wUm7CtrEpEI8-_BmMcu4XdWbjFReaMSTmfqSIDet3zQ=",
+        "specialist": "Genomics",
+        "experience": "10yrs",
+        "price": 5000,
+        "totaltest": 1000,
+        "rating": 3.5,
+        "id": 5
+      },
+      {
+        "name": "Vital Diagnostic Centre ",
+        "image": "https://media.istockphoto.com/id/506867910/photo/modern-clean-research-laboratory.jpg?s=612x612&w=0&k=20&c=wUm7CtrEpEI8-_BmMcu4XdWbjFReaMSTmfqSIDet3zQ=",
+        "specialist": "Genomics",
+        "experience": "6yrs",
+        "price": 3000,
+        "totaltest": 900,
+        "rating": 3.9,
+        "id": 6
+      },
+      {
+        "name": "Exella Diagnostic Centre ",
+        "image": "https://img.freepik.com/free-photo/woman-looking-tube-medium-shot_23-2148969962.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=sph",
+        "specialist": "Genomics",
+        "experience": "12yrs",
+        "price": 5000,
+        "totaltest": 2000,
+        "rating": 4.6,
+        "id": 7
+      },
+      {
+        "name": "Vital Diagnostic Centre ",
+        "image": "https://media.istockphoto.com/id/506867910/photo/modern-clean-research-laboratory.jpg?s=612x612&w=0&k=20&c=wUm7CtrEpEI8-_BmMcu4XdWbjFReaMSTmfqSIDet3zQ=",
+        "specialist": "Genomics",
+        "experience": "25yrs",
+        "price": 8000,
+        "totaltest": 6000,
+        "rating": 5,
+        "id": 8
+      },
+      {
+        "name": "Aplle Diagnostic Centre ",
+        "image": "https://www.freepik.com/free-photo/modern-empty-biological-applied-science-laboratory-with-technological-microscopes-glass-test-tubes-micropipettes-desktop-computers-displays-pc-s-are-running-sophisticated-dna-calculations_17762122.htm#query=lab&position=24&from_view=search&track=sph",
+        "specialist": "Genomics",
+        "experience": "15yrs",
+        "price": 6000,
+        "totaltest": 3400,
+        "rating": 4.9,
+        "id": 9
+      },
+      {
+        "name": "Aplle Diagnostic Centre ",
+        "image": "https://img.freepik.com/free-photo/microbiologist-with-protection-glasses-using-microscope-dressed-ppe-suit_482257-957.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=sph",
+        "specialist": "Genomics",
+        "experience": "19yrs",
+        "price": 6500,
+        "totaltest": 3600,
+        "rating": 5,
+        "id": 10
+      }
+    ],
+    "chemistry": [
+      {
+        "name": "SRL Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1191463139/photo/changing-the-future-one-experiment-at-a-time.jpg?s=612x612&w=0&k=20&c=eL-9IE0E1JPGxoCxjxYpVoemDRkJueHac5TBoxu_TUg=",
+        "specialist": "chemistry",
+        "experience": "10yrs",
+        "price": 4000,
+        "totaltest": 1200,
+        "rating": 4,
+        "id": 1
+      },
+      {
+        "name": "AllIsWell Diagnostic Centre",
+        "image": "https://img.freepik.com/free-photo/experiments-chemistry-lab-conducting-experiment-laboratory_155003-1401.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=sph",
+        "specialist": "chemistry",
+        "experience": "4yrs",
+        "price": 3000,
+        "totaltest": 600,
+        "rating": 3.4,
+        "id": 2
+      },
+      {
+        "name": "Accurate Diagnostic Centre",
+        "image": "https://img.freepik.com/free-photo/close-up-researcher-holding-glassware_23-2148794430.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=ais",
+        "specialist": "chemistry",
+        "experience": "9yrs",
+        "price": 3000,
+        "totaltest": 900,
+        "rating": 4.2,
+        "id": 3
+      },
+      {
+        "name": "AllIsWell Diagnostic Centre",
+        "image": "https://img.freepik.com/premium-photo/young-scientist-looking-through-microscope-laboratory-young-scientist-doing-some-research_33755-7530.jpg?size=626&ext=jpg&uid=R106781614&ga=GA1.2.494466966.1683201009&semt=ais",
+        "specialist": "chemistry",
+        "experience": "7yrs",
+        "price": 3000,
+        "totaltest": 600,
+        "rating": 3.9,
+        "id": 4
+      },
+      {
+        "name": "SRL Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1191463139/photo/changing-the-future-one-experiment-at-a-time.jpg?s=612x612&w=0&k=20&c=eL-9IE0E1JPGxoCxjxYpVoemDRkJueHac5TBoxu_TUg=",
+        "specialist": "chemistry",
+        "experience": "6yrs",
+        "price": 1600,
+        "totaltest": 700,
+        "rating": 4.2,
+        "id": 5
+      },
+      {
+        "name": "Accurate Diagnostic Centre",
+        "image": "https://cdn.pixabay.com/photo/2018/11/20/16/44/laboratory-3827745_640.jpg",
+        "specialist": "chemistry",
+        "experience": "20yrs",
+        "price": 5000,
+        "totaltest": 2000,
+        "rating": 5,
+        "id": 6
+      },
+      {
+        "name": "AllIsWell Diagnostic Centre",
+        "image": "https://cdn.pixabay.com/photo/2017/10/05/21/45/laboratory-2821207_640.jpg",
+        "specialist": "chemistry",
+        "experience": "15yrs",
+        "price": 7000,
+        "totaltest": 2000,
+        "rating": 5,
+        "id": 7
+      },
+      {
+        "name": "SRL Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1191463139/photo/changing-the-future-one-experiment-at-a-time.jpg?s=612x612&w=0&k=20&c=eL-9IE0E1JPGxoCxjxYpVoemDRkJueHac5TBoxu_TUg=",
+        "specialist": "chemistry",
+        "experience": "6yrs",
+        "price": 1500,
+        "totaltest": 500,
+        "rating": 4.1,
+        "id": 8
+      },
+      {
+        "name": "Accurate Diagnostic Centre",
+        "image": "https://cdn.pixabay.com/photo/2018/01/18/09/26/hospital-3089884_640.jpg",
+        "specialist": "chemistry",
+        "experience": "7yrs",
+        "price": 3000,
+        "totaltest": 1000,
+        "rating": 4.5,
+        "id": 9
+      },
+      {
+        "name": "AllIsWell Diagnostic Centre",
+        "image": "https://cdn.pixabay.com/photo/2017/10/04/09/56/laboratory-2815641_1280.jpg",
+        "specialist": "chemistry",
+        "experience": "5yrs",
+        "price": 1000,
+        "totaltest": 500,
+        "rating": 4.2,
+        "id": 10
+      }
+    ],
+    "Genetics": [
+      {
+        "name": "Victus Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1302270618/photo/medical-workers-doing-analysis-in-laboratory-during-corona-virus-outbreak-science-and.jpg?s=612x612&w=0&k=20&c=FROiFns7S6A1lbiZ5HbqtzRsG8tSf9bc5cpGWfxCAQk=",
+        "specialist": "Genetics",
+        "experience": "5yrs",
+        "price": 1000,
+        "totaltest": 300,
+        "rating": 4,
+        "id": 1
+      },
+      {
+        "name": "RS Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1330728771/photo/woman-scientist-in-lab-look-at-science-microscope-medical-test-and-research-biology-chemistry.jpg?s=612x612&w=0&k=20&c=NecvyfqstYEqoZNBgoitL1WkdrtRyVzFwr8orEgorFw=",
+        "specialist": "Genetics",
+        "experience": "8yrs",
+        "price": 2000,
+        "totaltest": 600,
+        "rating": 4.3,
+        "id": 2
+      },
+      {
+        "name": "Victus Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/477013712/photo/scientist-using-protective-robber-gloves-for-handling-substances-and-experiments.jpg?s=612x612&w=0&k=20&c=y8qCj3Ok5JwvNz0AgHPXuujoNpnUapzEZ7NkOkyxHqA=",
+        "specialist": "Genetics",
+        "experience": "4yrs",
+        "price": 1000,
+        "totaltest": 200,
+        "rating": 3.8,
+        "id": 3
+      },
+      {
+        "name": "Sugandhi Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1042024608/photo/molecule-of-dna-forming-inside-the-test-tube-equipment-3d-rendering-conceptual-image.jpg?s=612x612&w=0&k=20&c=b2qqE-L9ZxlRQyBwgflBokC0ShcE8jVk_-cJbMODzUw=",
+        "specialist": "Genetics",
+        "experience": "15yrs",
+        "price": 4000,
+        "totaltest": 3000,
+        "rating": 4.8,
+        "id": 4
+      },
+      {
+        "name": "Victus Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1302270618/photo/medical-workers-doing-analysis-in-laboratory-during-corona-virus-outbreak-science-and.jpg?s=612x612&w=0&k=20&c=FROiFns7S6A1lbiZ5HbqtzRsG8tSf9bc5cpGWfxCAQk=",
+        "specialist": "Genetics",
+        "experience": "28yrs",
+        "price": 5000,
+        "totaltest": 6000,
+        "rating": 5,
+        "id": 5
+      },
+      {
+        "name": "Sugandhi Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/494726892/photo/model-plant-in-a-research-lab.jpg?s=612x612&w=0&k=20&c=FgYna7smf8rXvnn1Lc_ClFproFIk8tclsoi3TJ8VTcE=",
+        "specialist": "Genetics",
+        "experience": "12yrs",
+        "price": 4000,
+        "totaltest": 3000,
+        "rating": 4.2,
+        "id": 6
+      },
+      {
+        "name": "RS Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1415108838/photo/modern-empty-science-laboratory-with-computers-microscopes-test-tubes-and-other-laboratory.jpg?s=612x612&w=0&k=20&c=WgycfVN6NJ-n-W1LhylmUn-ojLbCDA_iBmQu3pzJce0=",
+        "specialist": "Genetics",
+        "experience": "6yrs",
+        "price": 3000,
+        "totaltest": 500,
+        "rating": 4,
+        "id": 7
+      },
+      {
+        "name": "RS Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1135352068/photo/embryonic-stem-cells.jpg?s=612x612&w=0&k=20&c=U0p_TukaFqdfnkrmsB1mZBDKNze_zdOj0c6B80BJEaA=",
+        "specialist": "Genetics",
+        "experience": "20yrs",
+        "price": 5000,
+        "totaltest": 7000,
+        "rating": 5,
+        "id": 8
+      },
+      {
+        "name": "Sugandhi Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1302270618/photo/medical-workers-doing-analysis-in-laboratory-during-corona-virus-outbreak-science-and.jpg?s=612x612&w=0&k=20&c=FROiFns7S6A1lbiZ5HbqtzRsG8tSf9bc5cpGWfxCAQk=",
+        "specialist": "Genetics",
+        "experience": "15yrs",
+        "price": 5000,
+        "totaltest": 4000,
+        "rating": 5,
+        "id": 9
+      },
+      {
+        "name": "Victus Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1150285143/photo/food-quality-control-concept.jpg?s=612x612&w=0&k=20&c=y7-u4Fa0Ypo-haWq0zRVilO8CA0U56yeXDQZ4hfx-ZE=",
+        "specialist": "Genetics",
+        "experience": "8yrs",
+        "price": 4000,
+        "totaltest": 2000,
+        "rating": 4.3,
+        "id": 10
+      }
+    ],
+    "Bionics": [
+      {
+        "name": "PC Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/946509292/photo/chemistry-laboratory-woman-with-pipettes-and-test-tubes.jpg?s=612x612&w=0&k=20&c=OVObHwqzPseqwFUK_1VzD50SdcADrimcconIkg78E7s=",
+        "specialist": "Bionics",
+        "experience": "6yrs",
+        "price": 2000,
+        "totaltest": 600,
+        "rating": 4.1,
+        "id": 1
+      },
+      {
+        "name": "Global Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1488638450/photo/robotics-machine-and-engineer-or-team-in-a-factory-working-together-to-develop-technology.jpg?s=612x612&w=0&k=20&c=1Wu8crfMt-Y2km5grfzuBv9W9XdWocjSwlsxqfsxsuU=",
+        "specialist": "Bionics",
+        "experience": "22yrs",
+        "price": 4000,
+        "totaltest": 3000,
+        "rating": 5,
+        "id": 2
+      },
+      {
+        "name": "PC Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1374389013/photo/genetic-research-and-biotech-science-concept.jpg?s=612x612&w=0&k=20&c=y558gbazr6JptdDy-QOn23V5ETU0RR9W__lOnc5AJUM=",
+        "specialist": "Bionics",
+        "experience": "7yrs",
+        "price": 2000,
+        "totaltest": 600,
+        "rating": 3.9,
+        "id": 3
+      },
+      {
+        "name": "Global Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/946509292/photo/chemistry-laboratory-woman-with-pipettes-and-test-tubes.jpg?s=612x612&w=0&k=20&c=OVObHwqzPseqwFUK_1VzD50SdcADrimcconIkg78E7s=",
+        "specialist": "Bionics",
+        "experience": "5yrs",
+        "price": 1000,
+        "totaltest": 500,
+        "rating": 3.9,
+        "id": 4
+      },
+      {
+        "name": "Pathy Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1255977781/photo/multi-ethnic-laboratory-team-at-work-female-doctor-loving-her-job.jpg?s=612x612&w=0&k=20&c=29OYm10Tipq4X8mMOPZd66ynYERujJf_1ukt0oj_EB4=",
+        "specialist": "Bionics",
+        "experience": "16yrs",
+        "price": 4000,
+        "totaltest": 2000,
+        "rating": 4.5,
+        "id": 5
+      },
+      {
+        "name": "PC Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/946509292/photo/chemistry-laboratory-woman-with-pipettes-and-test-tubes.jpg?s=612x612&w=0&k=20&c=OVObHwqzPseqwFUK_1VzD50SdcADrimcconIkg78E7s=",
+        "specialist": "Bionics",
+        "experience": "6yrs",
+        "price": 1000,
+        "totaltest": 400,
+        "rating": 4,
+        "id": 6
+      },
+      {
+        "name": "Global Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1150416092/photo/ai-doctor-working.jpg?s=612x612&w=0&k=20&c=GwwXCALtxb4guqs9Rtx4TqA783YTLQcAHuqzROO0t6Q=",
+        "specialist": "Bionics",
+        "experience": "8yrs",
+        "price": 3500,
+        "totaltest": 2000,
+        "rating": 4.3,
+        "id": 7
+      },
+      {
+        "name": "Pathy Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/946509292/photo/chemistry-laboratory-woman-with-pipettes-and-test-tubes.jpg?s=612x612&w=0&k=20&c=OVObHwqzPseqwFUK_1VzD50SdcADrimcconIkg78E7s=",
+        "specialist": "Bionics",
+        "experience": "28yrs",
+        "price": 5000,
+        "totaltest": 7000,
+        "rating": 5,
+        "id": 8
+      },
+      {
+        "name": "Pathy Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/1448503765/photo/advanced-robotics-technology-start-up-chief-engineer-presents-innovative-robot-arm-at-closed.jpg?s=612x612&w=0&k=20&c=zQvTaMvlaXapWov6qNFuwmlSIQANjlgTdhT7F1lJq1c=",
+        "specialist": "Bionics",
+        "experience": "20yrs",
+        "price": 4500,
+        "totaltest": 5000,
+        "rating": 4.8,
+        "id": 9
+      },
+      {
+        "name": "Global Diagnostic Centre",
+        "image": "https://media.istockphoto.com/id/946509292/photo/chemistry-laboratory-woman-with-pipettes-and-test-tubes.jpg?s=612x612&w=0&k=20&c=OVObHwqzPseqwFUK_1VzD50SdcADrimcconIkg78E7s=",
+        "specialist": "Bionics",
+        "experience": "3yrs",
+        "price": 1000,
+        "totaltest": 200,
+        "rating": 4.3,
+        "id": 10
+      }
+    ],
+    "bookingappoint": [
+      {
+        "id": 1,
+        "name": "",
+        "phonenumber": null,
+        "email": "",
+        "message": ""
+      },
+      {
+        "name": "ajay tayde",
+        "email": "ajay@gmail.com",
+        "phonenumber": "1234567876",
+        "message": "",
+        "id": 2
+      },
+      {
+        "name": "Sorabh",
+        "email": "sourabh@123gmail.com",
+        "phonenumber": "1234563443",
+        "message": "",
+        "id": 3
+      },
+      {
+        "name": "shubham singh",
+        "email": "shubhamsingh@gmail.com",
+        "phonenumber": "2342343242",
+        "message": "",
+        "id": 4
+      }
+    ],
+    "totaltest": [
+      {
+        "name": "ritesh salve",
+        "age": "23",
+        "phoneNum": "2324234243",
+        "gender": "male",
+        "date": "2023-05-23",
+        "time": "23:32",
+        "address": "ichhapur",
+        "state": "madhaypradesh",
+        "id": 1
+      },
+      {
+        "name": "sourabh",
+        "age": "20",
+        "phoneNum": "9878787878",
+        "gender": "male",
+        "date": "2023-06-23",
+        "time": "01:00",
+        "address": "mumbai",
+        "state": "Maharashtra",
+        "id": 2
+      },
+      {
+        "name": "ajay",
+        "age": "28",
+        "phoneNum": "6767565756",
+        "gender": "male",
+        "date": "2023-06-02",
+        "doctorname": "",
+        "time": "11:22",
+        "address": "Rajarampuri , Kolhapur",
+        "state": "Maharashtra",
+        "doctorName": "",
+        "id": 3
+      },
+      {
+        "name": "kavita",
+        "age": "22",
+        "phoneNum": "2324234244",
+        "gender": "female",
+        "date": "2033-06-23",
+        "doctorname": "",
+        "time": "23:32",
+        "address": "Shastrinagar",
+        "state": "Maharashtra",
+        "id": 4
+      }
+    ]
+  }

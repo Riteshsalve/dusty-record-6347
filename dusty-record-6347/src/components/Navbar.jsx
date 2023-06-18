@@ -20,7 +20,7 @@ import {
   Avatar, AvatarBadge, AvatarGroup,
   VStack,
 } from '@chakra-ui/react';
-import logo1 from '../Images/LOGO.png';
+import logo1 from "../Images/logo.png"
 import { Search2Icon  } from '@chakra-ui/icons';
 // import 'animate.css';
 import axios from 'axios';
@@ -117,11 +117,9 @@ export default function Navbar() {
         borderBottom={1}
         borderStyle={'solid'}
         borderColor={useColorModeValue('gray.200', 'gray.900')}
-        align={'center'}
-       
+        align={'center'} 
       >
         <Flex
-       
           alignItems={'center'}
           flex={{ base: 1, md: 'auto' }}
           ml={{ base: -2 }}
@@ -140,10 +138,15 @@ export default function Navbar() {
           w="40%"
           alignItems={'center'}
           flex={{ base: 1 }}
-          justify={{ base: 'center', md: 'start' }}
+          justify={{ base: 'center', md: 'end' }}
+          justifyContent={"space-between"}
+
+          // alignContent={"right"}
         >
+          <a href="/">
           <Image
             src={logo1}
+            href="/"
             w={{
               base: '100px',
               sm: '100px',
@@ -151,17 +154,20 @@ export default function Navbar() {
               lg: '100px',
               xl: '100px',
               '2xl': '100px',
-            }}
+            } }
             objectFit={'cover'}
             borderRadius={'5px'}
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}
+            
           />
+          </a>
+         
 
           {/* </Text> */}
 
-          <Flex display={{ base: 'none', md: 'flex' }} ml={10} > 
+          <Flex display={{ base: 'none', md: 'flex' }} ml={10}  > 
             <DesktopNav />
           </Flex>
         </Flex>
@@ -270,7 +276,7 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue('white', 'gray.800');
 
   return (
-    <Stack direction={'row'} spacing={4}>
+    <Stack direction={'row'} spacing={4} >
       {NAV_ITEMS.map(navItem => (
         <Box key={navItem.label}>
           <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -430,8 +436,8 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/',
   },
   {
-    label: 'Laboratory',
-    href: '/laboratory',
+    label: 'Technology',
+    href: '/doctors',
     children: [
       {
         label: 'All',
